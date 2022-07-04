@@ -14,12 +14,12 @@ import java.util.List;
 @AllArgsConstructor(access = AccessLevel.PRIVATE)
 public class Bookstore {
 
-	private String     name;
-	private Type       type;
-	private String     webAddress;
-	private Activity   activity;
-	private String     bulstat;
-	private String     city;
-	private String     address;
-	private List<Book> books;
+	private String     		name;
+	private Type       		type;
+	private String     		webAddress;
+	private List<Activity>  activity;
+	private String     		bulstat;
+	private String     		city;
+	private String     		address;
+	private List<Book> 		books;
 }

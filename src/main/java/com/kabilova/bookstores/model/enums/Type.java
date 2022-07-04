@@ -5,7 +5,7 @@ import org.springframework.lang.Nullable;
 public enum Type {
 
 	CONVENTIONAL("Conventional"),
-	ONLINE("Online");
+	ONLINE("On-line");
 
 	private String label;
 
