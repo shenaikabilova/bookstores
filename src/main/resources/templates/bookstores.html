@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Bookstores</title>
+</head>
+<body>
+    <main role="bookstores" class="container">
+        <span><h2 align="center">Book stores</h2></span>
+        <table border="true" align="center">
+            <tr>
+                <td>Name</td>
+                <td>Type</td>
+                <td>Activity</td>
+                <td>Web address</td>
+                <td>Action</td>
+            </tr>
+            <tr th:each="b : ${allBookstores}">
+                <td><p th:text="${b.name}"></p></td>
+                <td><p th:text="${b.type}"></p></td>
+                <td><p th:text="${b.activity}"></p></td>
+                <td><p th:text="${b.webAddress}"></p></td>
+                <td><p><input type="button" value="details"/></p></td>
+            </tr>
+        </table>
+    </main>
+</body>
+</html>
