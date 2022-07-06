@@ -7,10 +7,10 @@ import lombok.*;
 import java.util.List;
 
 @Getter
-@Setter(value = AccessLevel.PRIVATE)
+@Setter
 @Builder
 @ToString
-@NoArgsConstructor(access = AccessLevel.PRIVATE)
+@NoArgsConstructor
 @AllArgsConstructor(access = AccessLevel.PRIVATE)
 public class Bookstore {
 

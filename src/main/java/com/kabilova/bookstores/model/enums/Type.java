@@ -13,6 +13,10 @@ public enum Type {
 		this.label = label;
 	}
 
+	public String getLabel() {
+		return label;
+	}
+
 	@Nullable
 	public static Type from(String label) {
 		try {

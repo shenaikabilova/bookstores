@@ -9,8 +9,6 @@ import java.util.ArrayList;
 @Controller
 public class BookstoresController {
 
-	private String message;
-
 	@GetMapping({"/", "/bookstores"})
 	public String bookstores(Model model) {
 		model.addAttribute("allBookstores", new ArrayList<>());
